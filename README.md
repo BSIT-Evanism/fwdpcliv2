@@ -1,6 +1,6 @@
 # FWDPeeps CLI 🚀
 
-Welcome to the FWDPeeps CLI v2, your friendly project scaffolding tool for the Filipino Web Developer Community! 🇵🇭👨‍💻👩‍💻
+Welcome to the FWDPeeps CLI , your friendly project scaffolding tool for the Filipino Web Developer Community! 🇵🇭👨‍💻👩‍💻
 
 ## What is FWDPeeps CLI?
 
