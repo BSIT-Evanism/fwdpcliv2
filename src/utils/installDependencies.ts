@@ -45,9 +45,11 @@ export async function installDependencies(language: SupportedLanguage, os: Suppo
         execSync(installCommands[os][language])
         consola.success(`Successfully installed ${info}`)
 
-        if (language !== 'Python') {
-            consola.warn('Please restart your terminal or run the following command to use the installed version:')
-            consola.info('source ~/.bashrc or source ~/.zshrc or source ~/.fishrc')
-        }
+        consola.warn('Please restart your terminal or run the following command to use the installed version:')
+        consola.info('source ~/.bashrc or source ~/.zshrc or source ~/.fishrc')
+        process.exit(0)
+    } else {
+        consola.info('Installation cancelled')
+        process.exit(0)
     }
 }
